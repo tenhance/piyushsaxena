@@ -1,0 +1,121 @@
+
+body{
+    background:url("images/bg1.jpg");
+    font-family: 'Ubuntu', sans-serif;
+}
+img{
+    height:500px;
+}
+#topnav{
+    background-color: rgb(255, 255, 255);
+}
+#ttl{
+    /* border-top:1px solid black; */
+    border-bottom: 1px solid grey;
+    padding: 20px;
+    background-color: rgba(255, 252, 246, 0.753);
+    text-align: right;
+    font-family: 'Water Brush', cursive;
+    font-weight: bold;
+    font-size: 3em;
+    margin:0;
+}
+#ttl2{
+    padding:1em;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+#main{
+    background-color: rgb(255, 255, 255);
+    display:block;
+    width:70%;
+    margin:auto;
+    /* border: 2px solid black; */
+}
+
+.nav{
+    border-bottom: 1px solid rgba(180, 178, 178, 0.616);
+    font-weight: bold;
+}
+footer{
+    margin:2em 0 0 0;
+    border-bottom:2px solid rgb(0, 0, 0);
+    padding:1em;
+    background:linear-gradient(to top, rgb(212, 206, 206),#fff);
+}
+footer h3{
+    text-decoration: underline;
+    margin-bottom:1px;
+}
+.btn-c{
+    margin:1em;
+    background-color: rgb(214, 77, 52);
+    border:3px solid rgb(214,77,52);
+}
+.btn-c:hover{
+    background-color:rgb(165, 66, 49);
+    border:3px solid rgb(165, 66, 49);
+}
+.boxes{
+    margin:1em;
+}
+.iname{
+    font-weight: bold;
+    font-size: 2em;
+}
+.card-header{
+    background-color: rgb(104, 95, 95);
+    color:white;
+}
+.dis{
+    padding:1em;
+}
+.contactd{
+    /* text-align: center; */
+    border-left:5px solid rgb(0, 0, 0);
+    padding:20px;
+    margin:1em;
+}
+.cd{
+    display:inline-block;
+    border-bottom:1px solid rgba(132, 136, 132, 0.76);
+    padding-bottom:1em;
+    margin-left:2em;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+}
+a:hover{
+    color:#fff;
+}
+.checked{
+    color:orange;
+}
+.ratings{
+    border-left:5px solid rgb(0, 0, 0);
+    margin:1.5em;
+}
+.ratings h6{
+    margin:0;
+    display:inline-block;
+    font-size: 1.5em;
+    padding:1em;
+    width:60%;
+    font-weight: bold;
+    
+}
+@media screen and (max-width:572px){
+    .card{
+        margin-top:10px;
+    }
+    #main{
+        display:block;
+        width:100%;
+        margin:auto;
+    }
+    #ttl2{
+        font-size: 1.5em;
+    }
+}
