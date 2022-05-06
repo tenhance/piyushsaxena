@@ -114,8 +114,19 @@ a:hover{
         display:block;
         width:100%;
         margin:auto;
+        background-color: rgba(229, 222, 159, 0.33);
+    }
+    #ttl{
+        background-color: rgb(223 188 141);
     }
     #ttl2{
         font-size: 1.5em;
     }
+    .nav-item{
+        background: #b19665;
+    }
+    .nav-link{
+        color:white;
+    }
+    
 }
