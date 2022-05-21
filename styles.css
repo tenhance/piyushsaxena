@@ -13,12 +13,14 @@ img{
     /* border-top:1px solid black; */
     border-bottom: 1px solid grey;
     padding: 20px;
-    background-color: rgba(255, 252, 246, 0.753);
+    /* background-color: rgba(255, 252, 246, 0.753); */
     text-align: right;
     font-family: 'Water Brush', cursive;
     font-weight: bold;
     font-size: 3em;
     margin:0;
+    background-color: rgb(31, 31, 31);
+    color: white;
 }
 #ttl2{
     padding:1em;
@@ -37,6 +39,12 @@ img{
 .nav{
     border-bottom: 1px solid rgba(180, 178, 178, 0.616);
     font-weight: bold;
+}
+.nav-item{
+    background: #4e4e4eda;
+}
+.nav-link{
+    color:white;
 }
 footer{
     margin:2em 0 0 0;
@@ -117,13 +125,14 @@ a:hover{
         background-color: rgba(229, 222, 159, 0.33);
     }
     #ttl{
-        background-color: rgb(223 188 141);
+        background-color: rgb(31, 31, 31);
+        color: white;
     }
     #ttl2{
         font-size: 1.5em;
     }
     .nav-item{
-        background: #b19665;
+        background: #4e4e4eda;
     }
     .nav-link{
         color:white;
